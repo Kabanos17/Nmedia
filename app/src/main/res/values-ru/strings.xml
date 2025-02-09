@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="nmedia">Нмедиа</string>
+    <string name="app_name">NMedia</string>
+    <string name="hello">Привет, Мир!</string>
+    <string name="description_post_author_avatar">Аватар автора поста</string>
+    <string name="description_post_menu">Меню поста</string>
+    <string name="like">лайк</string>
+    <string name="number_of_likes">количество лайков</string>
+    <string name="comment">комментарии</string>
+    <string name="repost">репост</string>
+    <string name="number_of_reposts">количество репостов</string>
+    <string name="number_of_comment">количество комментариев</string>
+    <string name="look">просмотры</string>
+    <string name="number_of_look">количество просмотров</string>
 </resources>

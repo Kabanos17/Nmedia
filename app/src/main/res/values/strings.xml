@@ -1,4 +1,12 @@
 <resources>
-    <string name="app_name" translatable="false">Nmedia</string>
-    <string name="nmedia">Nmedia!</string>
+    <string name="description_post_author_avatar">Post author avatar</string>
+    <string name="description_post_menu">Post menu</string>
+    <string name="like">лайк</string>
+    <string name="number_of_likes">количество лайков</string>
+    <string name="comment">комментарии</string>
+    <string name="repost">репост</string>
+    <string name="number_of_reposts">количество репостов</string>
+    <string name="number_of_comment">количество комментариев</string>
+    <string name="look">просмотры</string>
+    <string name="number_of_look">количество просмотров</string>
 </resources>
