@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ru.netology.nmedia"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "ru.netology.nmedia"
@@ -27,14 +27,21 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = VERSION_11
+        targetCompatibility = VERSION_11
     }
     kotlinOptions {
         jvmTarget = "11"
     }
-    buildToolsVersion = "34.0.0"
+    buildToolsVersion = "35.0.1"
     ndkVersion = "26.2.11394342"
+    buildFeatures {
+        viewBinding = false
+    }
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
 }
 
 dependencies {
